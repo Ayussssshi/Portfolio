@@ -250,7 +250,7 @@ span {
   box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
 }
 .services-box:hover{
- background-color: #02225a;
+  background: var(--hover);
 }
 
 .services-box h3 {
@@ -259,6 +259,9 @@ span {
   margin: 0.7rem 0 0.4rem;
 }
 .services-box:hover h3{
+  color: #fff;
+}
+.services-box:hover p{
   color: #fff;
 }
 .services-box .bx {
@@ -275,7 +278,7 @@ span {
   font-weight: 500;
 }
 .services-box:hover a{
-  color: #8b8a8f;
+  color: #8a74ca;
 }
 .portfolio-content {
   display: grid;
@@ -328,19 +331,21 @@ form textarea {
 .contact-button {
   width: 160px;
   cursor: pointer;
-  background: #2768d9;
+  background: var(--main-color);
   color: #fff;
   justify-content: center;
   text-align: center;
   text-transform: uppercase;
-  line-height: 40px; /* Align text vertically in the center */
-  border-radius: 20px;
+  padding: 0.7rem 1.3rem;
+  border-radius: 0.5rem;
   letter-spacing: 1px;
   margin-left: 35%;
   cursor: pointer;
+  margin: auto;
+  
 }
 .contact-button:hover {
-    background-color: #2980b9;
+  background: var(--hover);
 }
 .footer {
   display: grid;
